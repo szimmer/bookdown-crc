@@ -19,3 +19,11 @@ knitr::kable(
 ```
 
 More chapters to come in `02-foo.Rmd`, `03-bar`.Rmd, ...
+
+## Here's some very wide output
+
+```{r}
+options(width=200)
+1:100
+```
+
